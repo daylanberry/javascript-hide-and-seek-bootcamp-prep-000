@@ -22,5 +22,5 @@ function deepestChild(){
     gNode = nextNode;
     nextNode = gNode.children[0]
   }
-  return nextNode
+  return gNode
 }
